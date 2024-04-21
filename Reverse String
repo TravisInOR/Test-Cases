@@ -1,1 +1,16 @@
+const { reverse } = require("./string-utils");
 
+describe("String Utilities", () => {
+  test("The function 'reverse' should reverse a string", () => {
+    
+      expect(reverse("madam")).toBe("madam")
+   
+      expect(reverse("racecar")).toBe("racecar")
+
+      expect(reverse("civic")).toBe("civic")
+    
+      expect(reverse("mom")).toBe("mom")
+    
+    
+  });
+});
